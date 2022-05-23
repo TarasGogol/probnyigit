@@ -1,0 +1,76 @@
+body{
+   margin: 0;
+   font-family: 'Roboto', sans-serif;
+}
+header{
+    background-image: url(img/Rectangle.jpg);
+    height: 1024px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1, h2{
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    line-height: 67.2px;
+    letter-spacing: 2.4px;  
+}
+span{
+    display: block;
+    color: #FF6332;
+    font-weight: 900;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1375px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+img{
+    width: 30%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.trips{
+    background-image: url(img/insta/Group.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+h2 span{
+    display: inline;
+}
+h2{
+    position: relative;
+}
+
+.trips::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.637);
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 9px;
+    text-align: center;
+}
